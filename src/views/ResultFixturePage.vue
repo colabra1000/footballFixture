@@ -68,7 +68,7 @@
                                                
                                             </b-col>
                                             
-                                             <b-col cols="4" class="m-text-large text-primary text-left m-text-bold">
+                                             <b-col cols="4" class="m-text-large text-primary text-right m-text-bold">
                                                  <router-link class="m-link" :to="{name: 'home', params: { teamId : item0.awayTeamId }}">{{item0.awayTeamName}}</router-link>
                                             </b-col>
                                         </div>

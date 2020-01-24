@@ -36,11 +36,17 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ---It was developed using vue, vue-router vue-ex, coreui-vue.
 ---The hardest part to implement was customising the coreui-vue
 ---I am proud of the overall design, and the setup of the app.
+---clicking on a team anywhere on the app takes the user to the teams homepage.
 
 ---vue- this is the front end library used
+
 ---vueex- was used for state management
+
 ---vue-router- was used for routing to different pages
+
 ---coreui-vue- this is the ui framework that was used.
 
+
 ---This project was entirel developed by me
+
 Email:kpakisnique@gmail.com
