@@ -40,11 +40,6 @@ export default {
         waitingText,
     },
 
-    created(){
-        
-        // console.log(this.$route.params.teamId)
-        
-   },
 
    mounted(){
        this.getTeamsList().then(() => {

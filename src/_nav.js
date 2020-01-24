@@ -1,7 +1,7 @@
 export default {
     items: [
       {
-        name: 'SIDE',
+        name: 'SIDE BAR',
         icon: 'icon-speedometer',
         title: true,
         class: 'bg-danger pl-5'
@@ -31,7 +31,7 @@ export default {
       },
       {
         name: 'ABOUT',
-        url: '/#',
+        url: '/about',
         icon: 'icon-puzzle',
       },
     ]

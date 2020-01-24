@@ -18,15 +18,7 @@ export default {
         },
         {
             name: 'bundesLiga',
-            id: '2140'
-        },
-        {
-            name: 'championsLeague',
-            id: '2001'
-        },
-        {
-            name: 'europaLeague',
-            id: '2146'
+            id: '2002'
         },
     ]
 }

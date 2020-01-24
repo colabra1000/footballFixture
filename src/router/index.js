@@ -6,6 +6,7 @@ import TablePage from '../views/TablePage'
 import ResultFixturePage from '../views/ResultFixturePage'
 import ScorerPage from '../views/ScorerPage'
 import HomePage from '../views/HomePage'
+import AboutPage from '../views/AboutPage'
 Vue.use(Router)
 
 
@@ -14,6 +15,7 @@ function configRoutes(){
 
         {
             path: '/',
+            redirect:'/home',
             name: 'football',
             component: DefaultContainer,
             children: [
@@ -37,6 +39,11 @@ function configRoutes(){
                     path: 'scorers',
                     name: 'socrers',
                     component: ScorerPage,
+                },
+                {
+                    path: 'about',
+                    name: 'about',
+                    component: AboutPage,
                 }
             ]
         }

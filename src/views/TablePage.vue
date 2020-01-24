@@ -5,7 +5,7 @@
             <b-col cols="12" md="8" class="container-fluid">
                 <b-card class="m-bg-transparent">
                     <div slot="header">
-                        Priemier League Table
+                        {{competition.name}} Table
                     </div>
 
                     <div>
@@ -18,10 +18,6 @@
                                     {{ data.value}}
                                     </div>
                                 </template>
-
-                              
-
-
 
                         </b-table>
                         
