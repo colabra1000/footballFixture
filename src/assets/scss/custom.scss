@@ -1,0 +1,41 @@
+.m-text-large{
+    font-size: large;
+}
+.m-text-verylarge{
+    font-size: xx-large;
+}
+
+.m-text-small{
+    font-size: small;
+}
+
+.m-text-medium{
+    font-size: medium;
+}
+
+.m-text-bold{
+    font-weight: 500;
+}
+
+.m-text-color{
+    color: grey;
+}
+
+.m-bg-transparent{
+    // opacity: 0.4;
+    // filter: alpha(opacity = 80);
+    background-color: rgba($color: white, $alpha: 0.9);
+}
+
+.m-bg-none{
+    background: none;
+}
+
+.m-blur{
+    filter: blur(7px);
+}
+
+.m-link:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
